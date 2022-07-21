@@ -26,9 +26,9 @@ void keyboardEventOccurred (const pcl::visualization::KeyboardEvent& event, void
 int main (int argc,char* argv[]){
  
  pcl::PointCloud<pcl::PointXYZ>::Ptr cloud1(new pcl::PointCloud<pcl::PointXYZ>);
- pcl::io::loadPLYFile("../BALL BAR/2.ply", *cloud1);
+ pcl::io::loadPLYFile("../data/2.ply", *cloud1);
  pcl::PointCloud<pcl::PointXYZ>::Ptr cloud2(new pcl::PointCloud<pcl::PointXYZ>);
- pcl::io::loadPLYFile("../BALL BAR/1.ply", *cloud2);
+ pcl::io::loadPLYFile("../data/1.ply", *cloud2);
  PointCloudT::Ptr cloud_icp (new PointCloudT);  // ICP output point cloud
  
  pcl::console::TicToc time;

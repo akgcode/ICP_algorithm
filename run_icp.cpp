@@ -14,9 +14,9 @@
 int main (int argc, char** argv){
    //input ply files
    pcl::PointCloud<pcl::PointXYZ>::Ptr cloud1(new pcl::PointCloud<pcl::PointXYZ>);
-   pcl::io::loadPLYFile("../BALL BAR/4.ply", *cloud1);
+   pcl::io::loadPLYFile("../data/4.ply", *cloud1);
    pcl::PointCloud<pcl::PointXYZ>::Ptr cloud2(new pcl::PointCloud<pcl::PointXYZ>);
-   pcl::io::loadPLYFile("../BALL BAR/1.ply", *cloud2);
+   pcl::io::loadPLYFile("../data/1.ply", *cloud2);
    pcl::console::TicToc time;
    pcl::console::TicToc timeF;
    pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;

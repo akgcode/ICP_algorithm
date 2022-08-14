@@ -56,7 +56,7 @@ The commands above can be called by running the `install.sh` script:
 
 
 ## Usage
-
+[Video](https://youtu.be/idQaYfb7TCc) showing the visualisation of ICP algorithm in action
 ## Note
 *I'm adding some of the my personal notes and findings about this topic*
 - pcl has GeneralisedICP, NonLinearICP and ICP. 

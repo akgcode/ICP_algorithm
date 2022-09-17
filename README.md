@@ -16,7 +16,7 @@ Iterative Closest Point algorithm for fine alignment of point clouds
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
     - [Manually](#manually)
-    - [Using the install script](#using-the-install-script)
+
 - [Usage](#usage)
 - [Note](#note)
 - [References](#references)

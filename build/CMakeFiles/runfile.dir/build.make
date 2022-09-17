@@ -88,6 +88,8 @@ runfile: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 runfile: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 runfile: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 runfile: /usr/lib/x86_64-linux-gnu/libqhull.so
+runfile: /usr/lib/libOpenNI.so
+runfile: /usr/lib/libOpenNI2.so
 runfile: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
 runfile: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
 runfile: /usr/lib/x86_64-linux-gnu/libfreetype.so

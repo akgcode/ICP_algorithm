@@ -40,18 +40,17 @@ sh$ cd build
 ```
 - Generate the Makefile with `CMake`
 ``` sh
-sh$ cmake ..
+sh$ build/cmake ..
+
 ```
-- Generate the 3 binaries `icp`, `icp-gpu`, `benchmark` in the root directory and go back to it
+- Generate the binary file `runfile`
 ``` sh
-sh$ make
-sh$ cd ..
+sh$ build/make
 ```
 
-### Using the install script
-The commands above can be called by running the `install.sh` script:
+- Run the compiled file
 ``` sh
-./install.sh
+sh$ build/./runfile
 ```
 
 
